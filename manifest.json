@@ -2,8 +2,8 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/manifest.json",
 	"@type": "sc:Manifest",
-	"label": "Vissen van Nastasia Vanderperren",
-	"description": "Nastasia Vanderperren heeft 9 prachtige vissen in een vissenkom",
+	"label": "Vissen van Nastasia Vanderperren en een vogeltekening",
+	"description": "Nastasia Vanderperren heeft 9 prachtige vissen in een vissenkom en is gek op vogeltekeningen",
 	"metadata": [
 		{
 			"label": "Maker",
@@ -48,6 +48,36 @@
 									"profile": "http://iiif.io/api/image/2/level1.json"
 								}
 							}
+						}
+					]
+				},
+				{
+					"@id": "http://d31084fd-885c-4096-b75d-027e7244d1ed",
+					"@type": "sc:Canvas",
+					"label": "vogels",
+					"height": 3684,
+					"width": 2150,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://5def6d22-1296-4920-be6b-f88b90933f63",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://iiif.archivelab.org/iiif/birdsofamericafr06audu$19/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://iiif.archivelab.org/iiif/birdsofamericafr06audu$19",
+									"profile": [
+										"http://iiif.io/api/image/2/level2.json"
+									]
+								},
+								"height": 3684,
+								"width": 2150
+							},
+							"on": "http://d31084fd-885c-4096-b75d-027e7244d1ed"
 						}
 					]
 				}
