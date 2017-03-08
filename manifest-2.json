@@ -1,0 +1,60 @@
+{
+	"@context": "http://iiif.io/api/presentation/2/context.json",
+	"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/manifest.json",
+	"@type": "sc:Manifest",
+	"label": "Vissen van Nastasia",
+	"description": "Nastasia heeft 9 prachtige vissen in een vissenkom",
+	"metadata": [
+		{
+			"label": "Maker",
+			"value": "Bibi De Vlieger"
+		},
+		{
+			"label": "Creatiedatum",
+			"value": "2016-08-12"
+		},
+		{
+			"label": "Creatieplaats",
+			"value": "http://www.geonames.org/2797656/gent.html"
+		}
+	],
+	"sequences": [
+		{
+			"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/seq0.json",
+			"@type": "sc:Sequence",
+			"label": "eerste sequentie",
+			"canvases": [
+				{
+					"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/can0.json",
+					"@type": "sc:Canvas",
+					"label": "vissen",
+					"width": 5184,
+					"height": 3456,
+					"images": [
+						{
+							"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/anot0.json",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"on": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/can0.json",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/full/full/0/native.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"width": 5184,
+								"height": 3456,
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558",
+									"profile": "http://iiif.io/api/image/2/level1.json"
+								}
+							}
+						}
+					]
+				}
+			]
+		}
+	],
+	"license": "https://creativecommons.org/licenses/by-sa/4.0/",
+	"attribution": "PACKED vzw",
+	"logo": "https://upload.wikimedia.org/wikipedia/commons/b/b4/Logo_Packed_vzw.png"
+}
