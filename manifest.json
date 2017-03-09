@@ -2,8 +2,8 @@
 	"@context": "http://iiif.io/api/presentation/2/context.json",
 	"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/manifest.json",
 	"@type": "sc:Manifest",
-	"label": "Vissen van Nastasia Vanderperren en een vogeltekening",
-	"description": "Nastasia Vanderperren heeft 9 prachtige vissen in een vissenkom en is gek op vogeltekeningen",
+	"label": "Foto's van Bibi De Vlieger",
+	"description": "Een selectie uit de portfolio van Bibi De Vlieger",
 	"metadata": [
 		{
 			"label": "Maker",
@@ -11,11 +11,15 @@
 		},
 		{
 			"label": "Creatiedatum",
-			"value": "2016-08-12"
+			"value": "2016"
 		},
 		{
 			"label": "Creatieplaats",
-			"value": "https://www.wikidata.org/wiki/Q1296"
+			"value": "Europa"
+		},
+		{
+			"label": "Subject",
+			"value": "Nature"
 		}
 	],
 	"sequences": [
