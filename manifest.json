@@ -27,7 +27,7 @@
 				{
 					"@id": "http://free.iiifhosting.com/iiif/3bd08e57bc1b1b164f6b3914f852b5b33fdbae1c9d0cf75fda843577debc0558/can0.json",
 					"@type": "sc:Canvas",
-					"label": "vissen",
+					"label": "vissen van Nas",
 					"width": 5184,
 					"height": 3456,
 					"images": [
@@ -52,32 +52,198 @@
 					]
 				},
 				{
-					"@id": "http://d31084fd-885c-4096-b75d-027e7244d1ed",
+					"@id": "http://e9c413a1-c815-47c2-b35c-5b44e2190062",
 					"@type": "sc:Canvas",
-					"label": "vogels",
-					"height": 3684,
-					"width": 2150,
+					"label": "hertje",
+					"height": 640,
+					"width": 960,
 					"images": [
 						{
 							"@context": "http://iiif.io/api/presentation/2/context.json",
-							"@id": "http://5def6d22-1296-4920-be6b-f88b90933f63",
+							"@id": "http://6ac772cf-4757-4769-9384-e2a9dcf37f51",
 							"@type": "oa:Annotation",
 							"motivation": "sc:painting",
 							"resource": {
-								"@id": "http://iiif.archivelab.org/iiif/birdsofamericafr06audu$19/full/full/0/default.jpg",
+								"@id": "http://free.iiifhosting.com/iiif/d772d45d796e58b68ed46f696d97f4819e5e84fdd252847afe4b0cc84793a88d/full/full/0/default.jpg",
 								"@type": "dctypes:Image",
 								"format": "image/jpeg",
 								"service": {
 									"@context": "http://iiif.io/api/image/2/context.json",
-									"@id": "http://iiif.archivelab.org/iiif/birdsofamericafr06audu$19",
+									"@id": "http://free.iiifhosting.com/iiif/d772d45d796e58b68ed46f696d97f4819e5e84fdd252847afe4b0cc84793a88d",
 									"profile": [
-										"http://iiif.io/api/image/2/level2.json"
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
 									]
 								},
-								"height": 3684,
-								"width": 2150
+								"height": 640,
+								"width": 960
 							},
-							"on": "http://d31084fd-885c-4096-b75d-027e7244d1ed"
+							"on": "http://e9c413a1-c815-47c2-b35c-5b44e2190062"
+						}
+					]
+				},
+				{
+					"@id": "http://39f6cdfc-2838-4965-a358-19db3059d743",
+					"@type": "sc:Canvas",
+					"label": "dolfijnen!",
+					"height": 3456,
+					"width": 5184,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://0d238e67-8aed-4ba7-b099-83d99eb72c4a",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/95f013a33d3e92dc741449d60a4616fd1dcbfe50b5341ad218e8ab3d590de565/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/95f013a33d3e92dc741449d60a4616fd1dcbfe50b5341ad218e8ab3d590de565",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3456,
+								"width": 5184
+							},
+							"on": "http://39f6cdfc-2838-4965-a358-19db3059d743"
+						}
+					]
+				},
+				{
+					"@id": "http://e6ceb573-f87b-41fd-b9d0-ccf05b5bb3da",
+					"@type": "sc:Canvas",
+					"label": "zekere boom",
+					"height": 640,
+					"width": 960,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://222fafa9-600c-486b-9d1c-5bcf37c0f34c",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/628fddde894ab28f9024390ae38b3059c31b4a6c7bf83c25a846c302e49e888a/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/628fddde894ab28f9024390ae38b3059c31b4a6c7bf83c25a846c302e49e888a",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 640,
+								"width": 960
+							},
+							"on": "http://e6ceb573-f87b-41fd-b9d0-ccf05b5bb3da"
+						}
+					]
+				},
+				{
+					"@id": "http://d57a04d9-604e-404e-88e3-e213f2b532ca",
+					"@type": "sc:Canvas",
+					"label": "een insect in Portugal",
+					"height": 3456,
+					"width": 5184,
+					"images": [
+						{
+							"@context": "http://iiif.io/api/presentation/2/context.json",
+							"@id": "http://9350fcf3-bbc5-4a70-baaf-76670fa489bb",
+							"@type": "oa:Annotation",
+							"motivation": "sc:painting",
+							"resource": {
+								"@id": "http://free.iiifhosting.com/iiif/10d9b1bdcf32a45b44028c5d9cee871ff066a6ada8ae131f7786ff6d19c70eee/full/full/0/default.jpg",
+								"@type": "dctypes:Image",
+								"format": "image/jpeg",
+								"service": {
+									"@context": "http://iiif.io/api/image/2/context.json",
+									"@id": "http://free.iiifhosting.com/iiif/10d9b1bdcf32a45b44028c5d9cee871ff066a6ada8ae131f7786ff6d19c70eee",
+									"profile": [
+										"http://iiif.io/api/image/2/level1.json",
+										{
+											"formats": [
+												"jpg"
+											],
+											"qualities": [
+												"native",
+												"color",
+												"gray"
+											],
+											"supports": [
+												"regionByPct",
+												"regionSquare",
+												"sizeByForcedWh",
+												"sizeByWh",
+												"sizeAboveFull",
+												"rotationBy90s",
+												"mirroring"
+											]
+										}
+									]
+								},
+								"height": 3456,
+								"width": 5184
+							},
+							"on": "http://d57a04d9-604e-404e-88e3-e213f2b532ca"
 						}
 					]
 				}
