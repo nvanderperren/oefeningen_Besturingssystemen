@@ -9,7 +9,7 @@ jobs:
     machine:
       enabled: true
     steps:
-      - run: sh -o ~/deploy.sh
+      - run: sh ./deploy.sh
 workflows:
   version: 2
   build_and_deploy:
