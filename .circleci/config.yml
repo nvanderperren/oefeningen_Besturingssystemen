@@ -9,7 +9,7 @@ jobs:
     machine:
       enabled: true
     steps:
-      - run: scp -o "StrictHostKeyChecking no" $SSH_USER@$SSH_DOMAIN "~/deploy.sh"
+      - run: ssh -o "StrictHostKeyChecking no" $SSH_USER@$SSH_DOMAIN "~/deploy.sh"
 workflows:
   version: 2
   build_and_deploy:
