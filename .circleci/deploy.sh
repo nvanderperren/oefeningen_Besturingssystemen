@@ -1,5 +1,5 @@
 #!/bin/bash
-
+git clone https://github.com/nvanderperren/varia.git
 cd ~/varia
 git reset --hard
 git pull
