@@ -4,5 +4,5 @@ cd ~/varia
 git reset --hard
 git pull
 git checkout master
-cd ~/Sites/
+cd /var/www/html
 cp -r ~/varia/*
