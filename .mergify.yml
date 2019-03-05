@@ -1,7 +1,7 @@
 pull_request_rules:
   - name: automatic merge when CultURIze import
     conditions:
-      - author:@PACKED-vzw
+      - author:@PACKED-vzw/employees
       - base:master
       - title:Culturize Import
     actions:
