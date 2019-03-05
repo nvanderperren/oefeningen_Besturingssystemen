@@ -14,7 +14,7 @@ git checkout master
 
 echo "start copying files to webserver"
 cp -r * /var/www/html/
-if [ -f .htaccss ]; then
+if [ -f .htaccess ]; then
     cp .htaccess /var/www/html/
 fi
 
