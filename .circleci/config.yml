@@ -9,13 +9,9 @@ jobs:
     machine:
       enabled: true
     steps:
-      - add_ssh_keys: 
-          fingerprints:
-            - "33:8a:57:01:38:5f:38:a6:23:38:cc:43:4a:e2:ef:c6"
       - run: ssh -o "StrictHostKeyChecking no" $SSH_USER@$SSH_HOST "~/deploy.sh"
 workflows:
   version: 2
   build_and_deploy:
     jobs:
-      - build
       - deploy
