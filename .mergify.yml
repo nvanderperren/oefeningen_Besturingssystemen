@@ -1,9 +1,0 @@
-pull_request_rules:
-  - name: automatic merge when CultURIze import
-    conditions:
-      - base:master
-      - title:Culturize Import
-      - files~=^*\.htaccess$
-    actions:
-      merge:
-        method: merge
